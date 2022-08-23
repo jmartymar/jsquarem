@@ -1,8 +1,8 @@
 <%- include('partials/header') %>
 <div class="row-fluid">
-  <div class="span3">
-    <div class="well sidebar-nav">
-      <ul class="nav nav-list">
+  <!-- <div class="span3"> -->
+  <!-- <div class="well sidebar-nav"> -->
+  <!-- <ul class="nav nav-list">
         <li class="nav-header">Sidebar</li>
         <li class="active"><a href="#">Link</a></li>
         <li><a href="#">Link</a></li>
@@ -20,11 +20,11 @@
         <li><a href="#">Link</a></li>
         <li><a href="#">Link</a></li>
       </ul>
-    </div>
-    <!--/.well -->
-  </div>
+    </div> -->
+  <!--/.well -->
+  <!-- </div> -->
   <!--/span-->
-  <div class="span9">
+  <div class="span10 offset1">
     <div class="hero-unit">
       <h1>My Name Jeff</h1>
       <div style="display: none" id="hidden-content">
@@ -41,53 +41,68 @@
         leadership background. Development has always been my passion, and now
         it's my trade. Feel free to poke around and check out my work. Full
         credit to @kristopolous for
-        <a href="https://github.com/kristopolous/BOOTSTRA.386"
+        <a target="_blank" href="https://github.com/kristopolous/BOOTSTRA.386"
           >this amazing theme</a
         >.
       </p>
       <p class="text-center">
-        <a href="/about" class="btn btn-primary btn-large">Learn more »</a>
+        Check out my portfolio pieces below.
+        <!-- <a href="/about" class="btn btn-primary btn-large">Learn more »</a> -->
       </p>
     </div>
     <div class="row-fluid">
-      <div class="span4">
-        <h2>Heading</h2>
+      <div class="span4 offset1">
+        <h2>Vanilla Javascript Video Poker</h2>
         <p>
-          Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
-          tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
-          massa justo sit amet risus. Etiam porta sem malesuada magna mollis
-          euismod. Donec sed odio dui.
+          Video Poker game built in vanila javascript using Bootstrap and
+          minimal JQuery. Chip stacks are drawn with Canvas and the cards are
+          individual .svg files. The app is deployed and hosted on Github Pages.
         </p>
-        <p><a class="btn" href="#">View details »</a></p>
+        <p>
+          <a
+            class="btn"
+            target="_blank"
+            href="https://github.com/jsquarem/SEI-P1-Video-Poker"
+            >View Github Repo »</a
+          >
+          <a
+            class="btn"
+            target="_blank"
+            href="https://jsquarem.github.io/SEI-P1-Video-Poker/"
+            >Launch App »</a
+          >
+        </p>
       </div>
       <!--/span-->
-      <div class="span4">
-        <h2>Heading</h2>
+      <div class="span4 offset2">
+        <h2>Nice Package, Manager</h2>
         <p>
-          Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
-          tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
-          massa justo sit amet risus. Etiam porta sem malesuada magna mollis
-          euismod. Donec sed odio dui.
+          This CRUD app is built using Node.js with Express and MongoDB. The
+          database is hosted on Mongo Atlas and the app is deployed and hosted
+          on Heroku. I built this app to help me organize various NPM packages
+          with common use cases.
         </p>
-        <p><a class="btn" href="#">View details »</a></p>
-      </div>
-      <!--/span-->
-      <div class="span4">
-        <h2>Heading</h2>
         <p>
-          Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
-          tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
-          massa justo sit amet risus. Etiam porta sem malesuada magna mollis
-          euismod. Donec sed odio dui.
+          <a
+            class="btn"
+            target="_blank"
+            href="https://github.com/jsquarem/nice-package-man"
+            >View Github Repo »</a
+          >
+          <a
+            class="btn"
+            target="_blank"
+            href="https://nice-package-man.herokuapp.com/"
+            >Launch App »</a
+          >
         </p>
-        <p><a class="btn" href="#">View details »</a></p>
       </div>
       <!--/span-->
     </div>
     <!--/row-->
-    <div class="row-fluid">
+    <div class="row-fluid" hidden>
       <div class="span4">
-        <h2>Heading</h2>
+        <h2>Coming Soon...</h2>
         <p>
           Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
           tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
@@ -98,7 +113,7 @@
       </div>
       <!--/span-->
       <div class="span4">
-        <h2>Heading</h2>
+        <h2>Coming Soon...</h2>
         <p>
           Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
           tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum
@@ -109,7 +124,7 @@
       </div>
       <!--/span-->
       <div class="span4">
-        <h2>Heading</h2>
+        <h2>Coming Soon...</h2>
         <p>
           Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
           tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum

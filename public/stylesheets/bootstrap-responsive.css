@@ -16,7 +16,7 @@
 .clearfix:after {
   display: table;
   line-height: 0;
-  content: "";
+  content: '';
 }
 
 .clearfix:after {
@@ -36,8 +36,8 @@
   width: 100%;
   min-height: 20px;
   -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 @-ms-viewport {
@@ -117,12 +117,12 @@
   .row:after {
     display: table;
     line-height: 0;
-    content: "";
+    content: '';
   }
   .row:after {
     clear: both;
   }
-  [class*="span"] {
+  [class*='span'] {
     float: left;
     min-height: 1px;
     margin-left: 16px;
@@ -213,12 +213,12 @@
   .row-fluid:after {
     display: table;
     line-height: 0;
-    content: "";
+    content: '';
   }
   .row-fluid:after {
     clear: both;
   }
-  .row-fluid [class*="span"] {
+  .row-fluid [class*='span'] {
     display: block;
     float: left;
     width: 100%;
@@ -226,13 +226,13 @@
     margin-left: 2.127659574468085%;
     *margin-left: 2.07469347277317%;
     -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
   }
-  .row-fluid [class*="span"]:first-child {
+  .row-fluid [class*='span']:first-child {
     margin-left: 0;
   }
-  .row-fluid .controls-row [class*="span"] + [class*="span"] {
+  .row-fluid .controls-row [class*='span'] + [class*='span'] {
     margin-left: 2.127659574468085%;
   }
   .row-fluid .span12 {
@@ -384,7 +384,7 @@
   .uneditable-input {
     margin-left: 0;
   }
-  .controls-row [class*="span"] + [class*="span"] {
+  .controls-row [class*='span'] + [class*='span'] {
     margin-left: 24px;
   }
   input.span12,
@@ -467,12 +467,12 @@
   .row:after {
     display: table;
     line-height: 0;
-    content: "";
+    content: '';
   }
   .row:after {
     clear: both;
   }
-  [class*="span"] {
+  [class*='span'] {
     float: left;
     min-height: 1px;
     margin-left: 16px;
@@ -563,12 +563,12 @@
   .row-fluid:after {
     display: table;
     line-height: 0;
-    content: "";
+    content: '';
   }
   .row-fluid:after {
     clear: both;
   }
-  .row-fluid [class*="span"] {
+  .row-fluid [class*='span'] {
     display: block;
     float: left;
     width: 100%;
@@ -576,13 +576,13 @@
     margin-left: 2.4390243902439024%;
     *margin-left: 2.386058288548987%;
     -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
   }
-  .row-fluid [class*="span"]:first-child {
+  .row-fluid [class*='span']:first-child {
     margin-left: 0;
   }
-  .row-fluid .controls-row [class*="span"] + [class*="span"] {
+  .row-fluid .controls-row [class*='span'] + [class*='span'] {
     margin-left: 2.4390243902439024%;
   }
   .row-fluid .span12 {
@@ -734,7 +734,7 @@
   .uneditable-input {
     margin-left: 0;
   }
-  .controls-row [class*="span"] + [class*="span"] {
+  .controls-row [class*='span'] + [class*='span'] {
     margin-left: 16px;
   }
   input.span12,
@@ -807,8 +807,8 @@
   .navbar-fixed-top,
   .navbar-fixed-bottom,
   .navbar-static-top {
-    margin-right: -10px;
-    margin-left: -10px;
+    margin-right: -20px;
+    margin-left: -20px;
   }
   .container-fluid {
     padding: 0;
@@ -836,49 +836,49 @@
     float: none;
     margin-left: 0;
   }
-  [class*="span"],
-  .uneditable-input[class*="span"],
-  .row-fluid [class*="span"] {
+  [class*='span'],
+  .uneditable-input[class*='span'],
+  .row-fluid [class*='span'] {
     display: block;
     float: none;
     width: 100%;
     margin-left: 0;
     -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
   }
   .span12,
   .row-fluid .span12 {
     width: 100%;
     -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
   }
-  .row-fluid [class*="offset"]:first-child {
+  .row-fluid [class*='offset']:first-child {
     margin-left: 0;
   }
   .input-large,
   .input-xlarge,
   .input-xxlarge,
-  input[class*="span"],
-  select[class*="span"],
-  textarea[class*="span"],
+  input[class*='span'],
+  select[class*='span'],
+  textarea[class*='span'],
   .uneditable-input {
     display: block;
     width: 100%;
     min-height: 20px;
     -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
   }
   .input-prepend input,
   .input-append input,
-  .input-prepend input[class*="span"],
-  .input-append input[class*="span"] {
+  .input-prepend input[class*='span'],
+  .input-append input[class*='span'] {
     display: inline-block;
     width: auto;
   }
-  .controls-row [class*="span"] + [class*="span"] {
+  .controls-row [class*='span'] + [class*='span'] {
     margin-left: 0;
   }
   .modal {
@@ -905,8 +905,8 @@
     display: block;
     line-height: 20px;
   }
-  input[type="checkbox"],
-  input[type="radio"] {
+  input[type='checkbox'],
+  input[type='radio'] {
     border: 1px solid #ccc;
   }
   .form-horizontal .control-label {
@@ -1007,8 +1007,8 @@
     padding: 10px 10px;
     font-weight: normal;
     -webkit-border-radius: 0;
-       -moz-border-radius: 0;
-            border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
   }
   .nav-collapse .dropdown-menu li + li a {
     margin-bottom: 0;
@@ -1047,11 +1047,11 @@
     background-color: transparent;
     border: none;
     -webkit-border-radius: 0;
-       -moz-border-radius: 0;
-            border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
     -webkit-box-shadow: none;
-       -moz-box-shadow: none;
-            box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
   }
   .nav-collapse .open > .dropdown-menu {
     display: block;
@@ -1097,14 +1097,15 @@
     color: #ffffff;
     background: #555555;
     -webkit-box-shadow: 0 0 0;
-       -moz-box-shadow: 0 0 0;
-            box-shadow: 0 0 0;
+    -moz-box-shadow: 0 0 0;
+    box-shadow: 0 0 0;
+    margin-bottom: 0px;
   }
   .navbar .btn-navbar:after {
-    content: "";
+    content: '';
   }
   .navbar .btn-navbar:before {
-    content: "▼";
+    content: '▼';
   }
   .navbar .btn-navbar.active,
   .navbar .btn-navbar:active {
